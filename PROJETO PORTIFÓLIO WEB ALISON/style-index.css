@@ -29,8 +29,7 @@ header{
 
 .contatos li{
 	display: inline-block;
-	padding-left: 20px;
-
+	padding: 0 20px 0 0;
 }
 
 .redesocial_logo{

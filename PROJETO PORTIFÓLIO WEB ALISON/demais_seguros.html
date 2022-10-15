@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+	<html lang="pt-br">
+	<title>Demais Seguros!</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style-demaisseguros.css">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+</head>
+
+	<body>
+
+		<header> 
+			<img class="logo_alison1" src="imagens/logo_size_invert.jpg">
+			<nav class="contatos">
+				<ul>
+					<li><a href="https://www.instagram.com/alisonluizs_/"><img class="redesocial_logo" src="imagens/insta_logo.jpg"></a></li>
+					<li><a href="https://br.linkedin.com/in/alison-luiz-silva-60231b186"><img class="redesocial_logo" src="imagens/linkedin_logo.png"></a></li>
+				</ul>
+			</nav>
+			<nav class="menu">
+					<ul>
+						<li>
+							<a href="C:\Users\aristides\Desktop\ESTUDOS ALURA\PROJETO PORTIFÓLIO WEB ALISON\index.html">
+							Menu Principal
+						</a>
+						</li>
+					</ul>
+				</nav>
+		</header>
+		<main>
+			<div>
+				<h2>ENTRE EM CONTATO PARA DEMAIS SEGUROS</h2>
+			</div>
+
+			<div class="descricaotitulo">
+				<p>&#8594; Preencha o seguinte formulário para que nossa equipe possa lhe encaminhar as melhores oportunidades de mercado</p>
+			</div>
+
+				<label for="nomecompleto">Nome completo:</label>
+				<input type="text" id="nomecompleto" class="input-padrao" required placeholder="Nome e Sobrenome">
+
+				<label for="cnpj">CNPJ:</label>
+				<input type="text" id="cnpj" class="input-padrao" required placeholder="Insira o CNPJ de sua empresa">
+
+				<label for="CEP">CEP:</label>
+				<input type="text" id="CEP" class="input-padrao" required placeholder="Insira o CEP de sua empresa">
+
+					<form>
+						<fieldset>
+							<legend>Qual seguro está procurando?</legend>
+								<select>
+									<option>Automóvel</option>
+									<option>Residencial</option>
+									<option>Empresarial</option>
+									<option>Vida</option>
+									<option>Previdência</option>
+									<option>Ramos Elementares</option>
+									<option>Drone</option>
+									<option>Risco de Engenharia</option>
+									<option>Eventos</option>
+								</select>
+						</fieldset>
+
+				<label for="email">E-mail:</label>
+				<input type="text" id="email" class="input-padrao" placeholder="seuemail@dominio.com">
+
+
+				<label for="telefone">Telefone:</label>
+				<input type="text" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
+
+						<fieldset>
+							<legend>Como prefere nosso contato?</legend>
+								<label for="radio-email"><input type="radio" name="forma_contato" value="email" id="radio-email"> E-mail</label>						
+								<label for="radio-telefone"><input type="radio" name="forma_contato" value="telefone" id="radio-telefone">Telefone</label>						
+								<label for="radio-whatsapp"><input type="radio" name="forma_contato" value="whatsapp" id="radio-whatsapp"checked>Whatsapp</label>
+						</fieldset>
+
+						<fieldset>
+							<legend>Qual horario prefre ser atendido?</legend>
+								<select>
+									<option>Manhã</option>
+									<option>Tarde</option>
+									<option>Noite</option>
+								</select>
+						</fieldset>
+
+				<label for="recados">Recados:</label>
+				<textarea cols="40" rows="10" id="recados" class="input-padrao" required placeholder="Deixe aqui alguma mensagem para que possamos levar em consideração em sua cotação (Hospital de preferencia, custo máximo, etc)"></textarea>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber novidades pelo e-mail?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+
+					</form>
+		</main>
+		<footer>
+			<img class="img_rodape" src="imagens/logo_size_invert.jpg">
+			<p class="copyright">&copy;Alison.dev.br - 2022</p>
+		</footer>
+	</body>
+</html>

@@ -29,7 +29,7 @@ header{
 
 .contatos li{
 	display: inline-block;
-	padding-left: 20px;
+	padding: 0 20px 0 0;
 
 }
 
@@ -93,7 +93,7 @@ div h2{
 
 }
 
-div p{
+.descricaotitulo{
 	margin: 40px auto;
 	font-family: 'Raleway', sans-serif;
 }
