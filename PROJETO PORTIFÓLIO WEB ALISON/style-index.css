@@ -1,9 +1,11 @@
-body{
+body {
 	background:#08547c;
 	color: white;
+	font-family: 'Montserrat', sans-serif;
 
 }
 
+/*INÍCIO DO CABAÇALHO DA PÁGINA (header)*/
 header{
 	background: #1494d4;
 	padding: 10px;
@@ -14,7 +16,9 @@ header{
 .logo_alison1{
 	position: relative;
 	left: 30px;
-	width: 200px;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
 	margin: 5px 0px 0px 25px;
 
 }
@@ -51,15 +55,15 @@ header{
 }
 
 .menu{
-	background-color: black;
+	position: relative;
+	background: black;
 	font-size: 13px;
 	font-weight: bold;
-	padding: 15px 5%;
-	font-family: 'Raleway', sans-serif;
-	
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px;
+
 }
-
-
 
 nav a{
 	text-decoration: none;
@@ -73,84 +77,75 @@ nav a:hover{
 	color: yellow;
 
 }
+/*FIM DO CABEÇALHO DA PÁGINA (header)*/
 
 
+/*INÍCIO DA APRESENTAÇÃO (main)*/
 .apresentacao{
-	background:#08547c;
+	position: relative;
+	display: inline-block;
+	width: 940px;
 
 
+}
+
+
+.titulo-principal{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	color: yellow;
+	margin: 25px auto;
+
+}
+
+.apresentacao h1{
+	display: inline-block;
+	color: yellow;
+	font-weight: bold;
+	font-size: 23px;
+	text-align: center;
+	margin: 15px auto;
+
+}
+
+
+.apresentacao p{
+	display: inline-block;
+	font-size: 20px;
+	text-align: ;
+	margin:  2em auto 2em;
+
+}
+
+
+.img-apresentacao{
+	position: relative;
+	float: left;
+	margin: 150px 50px;
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	border: yellow 5px solid;
+}
 	
 
-}
-
-.img_apresentacao{
-	float: left;
-	display: inline-block;
-	margin: 200px 50px;
-	padding: 5px 5px;
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	border: yellow 5px solid;
-
-}
-
-.img_apresentacao:hover{
+.img-apresentacao:hover {
 	border-color: #C78C19;
 	cursor: pointer;
 	transform: scale(1.1);
 }
 
-.img_apresentacao:active{
+.img-apresentacao:active {
 	border-color: green;
 
 }
+/*FIM DA APRESENTAÇÃO (main)*/
 
 
-.titulo_apresentacao{
-	position: static;
-	text-align: center;
-	margin: auto;
-	padding: 25px 0 0 0;
-	width: 940px;
-	color: yellow;
-	font-size: 40px;
-	font-weight: bold;
-	font-family: 'Raleway', sans-serif;
-
-
-}
-
-
-.subtitulo_apresentacao{
-	position: static;
-	margin: 50px auto;
-	width: 940px;
-	color: yellow;
-	text-align: left;
-	font-size: 27px;
-	font-weight: bold;
-	font-family: 'Raleway', sans-serif;
-
-
-
-}
-
-.descricao_apresentacao{
-	position: static;
-	margin: 50px auto;
-	width: 940px;
-	position: relative;
-	font-size: 22px;
-	font-family: 'Raleway', sans-serif;
-
-
-
-}
-
-
-
+/*INÍCIO DO PORTIFÓLIO (section)*/
 .portifolio{
+	position: relative;
 	background: white;
 	margin: auto;
 	padding: 50px;
@@ -165,7 +160,7 @@ nav a:hover{
 	font-weight: bold;
 	margin: 0px 0 20px 0;
 	padding: 10px 0 30px 0;
-	font-family: 'Raleway', sans-serif;
+
 
 	
 		
@@ -185,13 +180,13 @@ nav a:hover{
 }
 
 
-.portifolio h1{
+.portifolio h2{
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
 	margin: 0px auto 20px auto;
 	vertical-align: top;
-	font-family: 'Raleway', sans-serif;
+
 	
 }
 
@@ -201,7 +196,6 @@ nav a:hover{
 	display: inline-block;
 	position: relative;
 	margin: 10px auto 10px auto;
-	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	
 }
@@ -245,26 +239,11 @@ nav a:hover{
 .imagem_barbearia:active{
 	border-color: #099C19;
 }
+/*FIM DO PORTIFÓLIO (section)*/
 
 
-footer{
-	text-align: center;
-	color: white;
-	background: #1494d4;
 
-}
-
-.img_rodape{
-	padding: 30px;
-
-}
-
-.copyright{
-	padding: 10px;
-	font-family: 'Raleway', sans-serif;
-
-}
-
+/*INÍCIO DO MENU DE COTAÇÕES (section)*/
 .titulo_cotacoes{
 	color: yellow;
 	font-size: 35px;
@@ -272,8 +251,6 @@ footer{
 	font-weight: bold;
 	margin: 20px 0 20px 0;
 	padding: 10px 0 30px 0;
-	font-family: 'Raleway', sans-serif;
-
 
 
 }
@@ -283,7 +260,6 @@ footer{
 	width: 940px;
 	margin: 20px auto 50px;
 	line-height: 23px;
-	font-family: 'Raleway', sans-serif;
 
 }
 
@@ -301,7 +277,7 @@ footer{
 	font-size: 25px;
 	text-align: center;
 	font-weight: bold;
-	font-family: 'Raleway', sans-serif;
+
 	
 }
 
@@ -322,3 +298,53 @@ footer{
 .imagem_seguros:active{
 	border-color: #099C19;
 }
+/*FIM DO MENU DE COTAÇÕES (section)*/
+
+
+/*INÍCIO DA LOCALIDADE*/
+.mapas{
+	background:white;
+	padding: 50px;
+}
+
+.mapas h4{
+	font-size: 38px;
+	text-align: center;
+	color: #08547c;
+	font-weight: bold;
+
+}
+
+.mapas p{
+	color: #08547c;
+	font-size:22px;
+	font-weight: bold;
+	text-align: center;
+	margin: 2em;
+
+}
+
+/*FIM DA LOCALIDADE*/
+
+
+
+
+/*INÍCIO RODAPÉ (footer)*/
+footer{
+	text-align: center;
+	color: white;
+	background: #1494d4;
+
+}
+
+.img_rodape{
+	padding: 30px;
+
+}
+
+.copyright{
+	padding: 10px;
+
+
+}
+/*FIM RODAPÉ (footer)*/
