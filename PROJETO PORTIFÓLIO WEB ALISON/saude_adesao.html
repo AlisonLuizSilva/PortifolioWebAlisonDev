@@ -4,7 +4,7 @@
 	<title> Planos Adesão!</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style-saudepf.css">
+	<link rel="stylesheet" href="style-saudeadesao.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 	
 </head>
@@ -63,7 +63,6 @@
 				<div class="formulario">
 					<label for="nascimento_titular">Data de nascimento do titular:</label>
 					<input type="text" id="nascimento_titular" class="input-padrao" required placeholder="DD/MM/AAAA">
-					<button type="button" id="add-campo"> + </button>
 					
 				</div>
 						<fieldset>
@@ -106,13 +105,7 @@
 
 					<input type="submit" value="Enviar formulário" class="enviar">
 				</form>
-					<script>
-						$( "#add-campo" ).click(function() {
-  						$( ".formulario" ).append( '<input type="text" id="nascimento_titular" class="input-padrao" required placeholder="DD/MM/AAAA">' );
-						});
-
-					</script>
-
+					
 			</main>
 			
 			<footer>

@@ -195,7 +195,7 @@ nav a:hover{
 .descricao_produto{
 	display: inline-block;
 	position: relative;
-	margin: 10px auto 10px auto;
+	margin: 10px auto 15px auto;
 	font-weight: bold;
 	
 }
@@ -208,8 +208,10 @@ nav a:hover{
 	border: 5px #08547c solid;
 	padding: 5px;
 
+}
 
-
+.imagem_ransom:hover{
+	transform: scale(1.1);
 }
 
 .imagem_barbearia{
@@ -218,6 +220,10 @@ nav a:hover{
 	border-radius: 10%;
 	border: 5px #08547c solid;
 	
+}
+
+.imagem_barbearia:hover{
+	transform: scale(1.1);
 }
 
 .imagem_ransom:hover{

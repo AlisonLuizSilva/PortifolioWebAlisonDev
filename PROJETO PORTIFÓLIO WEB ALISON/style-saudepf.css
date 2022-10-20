@@ -7,7 +7,9 @@ body {
 
 header{
 	background: #1494d4;
-	padding: 10px;
+	padding: 10px 0;
+	width: 100%;
+	margin: 0 auto;
 
 }
 
@@ -60,14 +62,16 @@ header{
 	font-weight: bold;
 	width: 100%;
 	margin: 0 auto;
-	padding: 15px;
+	padding: 15px 0;
 
 }
+
 
 
 nav a{
 	text-decoration: none;
 	color: white;
+	margin: 20px;
 
 }
 
@@ -102,32 +106,33 @@ div h2{
 }
 
 
-form label, form legend{
+form label, form legend, fieldset{
 	display:  block;
 	margin: 10px 0 10px 0;
 	font-size: 19px;
+	text-align: center;
 
 
 }
+
 
 .input-padrao{
 	display: block;
 	width: 50%;
 	margin: 10px 0 10px 0;
 	padding: 10px 10px;
-
+	margin: 0 auto;
 }
 
 .checkbox{
 	display: block;
-	margin: 10px;
-
+	margin: 10px auto;
 }
 
 .enviar{
-	margin: 10px 0;
+	margin: 10px 25%;
 	width: 50%;
-	padding: 20px;
+	padding: 20px 0;
 	font-weight: bold;
 	background: orange;
 	color: white;
@@ -137,6 +142,7 @@ form label, form legend{
 	transition: 0.5s;
 
 }
+
 
 .enviar:hover{
 	background: darkorange;
@@ -150,6 +156,9 @@ footer{
 	text-align: center;
 	color: white;
 	background: #1494d4;
+	padding: 10px 0;
+	width: 100%;
+	margin: 0 auto;
 
 }
 
