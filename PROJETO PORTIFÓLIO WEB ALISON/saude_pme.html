@@ -4,33 +4,39 @@
 	<title> Planos PME!</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style-saudepme.css">
+	<link rel="stylesheet" href="style-produtos.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 	
 </head>
 <body>
 		<header> 
 			<img class="logo_alison1" src="imagens/logo_size_invert.jpg">
-			<nav class="contatos">
-				<ul>
-					<li><a href="https://www.instagram.com/alisonluizs_/"><img class="redesocial_logo" src="imagens/insta_logo.jpg"></a></li>
-					<li><a href="https://br.linkedin.com/in/alison-luiz-silva-60231b186"><img class="redesocial_logo" src="imagens/linkedin_logo.png"></a></li>
-				</ul>
-			</nav>
+
+			<div class="caixa-contatos">
+				<nav class="contatos">
+					<ul>
+						<li><a href="https://www.instagram.com/alisonluizs_/"><img class="redesocial_logo" src="imagens/insta_logo.jpg"></a></li>
+						<li><a href="https://br.linkedin.com/in/alison-luiz-silva-60231b186"><img class="redesocial_logo" src="imagens/linkedin_logo.png"></a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 
 			<section class="main-menu">
-				<nav class="menu">
-					<ul>
-						<li><a href="C:\Users\aristides\Desktop\ESTUDOS ALURA\PROJETO PORTIFÓLIO WEB ALISON\index.html">Menu principal
-						</a></li>
-					</ul>
-				</nav>
-			</section>
-			<main>
+					<nav class="menu">
+						<ul>
+							<li><a href="C:\Users\aristides\Desktop\ESTUDOS ALURA\PROJETO PORTIFÓLIO WEB ALISON\index.html">Menu</a></li>
+
+							<li><a href="C:\Users\aristides\Desktop\ESTUDOS ALURA\PROJETO PORTIFÓLIO WEB ALISON\experiencia_securitaria.html">Experiência Securitária</a></li>
+						</ul>
+					</nav>
+				</section>
+
+		<main>
 			<div>
 				<h2>PLANO DE SAÚDE PEQUENAS E MÉDIAS EMPRESAS</h2>
 			</div>
+
 			<div class="descricaotitulo">
 				<p>&#8594; Preencha o seguinte formulário para que nossa equipe possa lhe encaminhar as melhores oportunidades de mercado</p>
 			</div>
@@ -59,10 +65,6 @@
 							<option>11 ou +</option>
 						</select>
 				</fieldset>
-				
-				<br><br><br>
-				<strong>AQUI IREMOS INSERIR UM LAYOUT!</strong>
-				<br><br><br>
 
 				<fieldset>
 					<legend>Possui Plano?</legend>
@@ -71,6 +73,7 @@
 							<option>NÃO</option>
 						</select>
 				</fieldset>
+
 				<label for="email">E-mail:</label>
 				<input type="text" id="email" class="input-padrao" placeholder="seuemail@dominio.com">
 
@@ -79,11 +82,12 @@
 				<input type="text" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
 
 				<fieldset>
-					Como prefere nosso contato?
-					<label for="radio-email"><input type="radio" name="forma_contato" value="email" id="radio-email"> E-mail</label>						
+					<legend>Como prefere nosso contato?</legend>
+						<label for="radio-email"><input type="radio" name="forma_contato" value="email" id="radio-email"> E-mail</label>						
 						<label for="radio-telefone"><input type="radio" name="forma_contato" value="telefone" id="radio-telefone">Telefone</label>						
 						<label for="radio-whatsapp"><input type="radio" name="forma_contato" value="whatsapp" id="radio-whatsapp"checked>Whatsapp</label>
 				</fieldset>
+
 				<fieldset>
 						<legend>Qual horario prefre ser atendido?</legend>
 							<select>
@@ -101,10 +105,10 @@
 				<input type="submit" value="Enviar formulário" class="enviar">
 			</form>
 		</main>
+
 		<footer>
 				<img class="img_rodape" src="imagens/logo_size_invert.jpg">
 				<p class="copyright">&copy;Copyright Barbearia Alura - 2019</p>
-			
 		</footer>
 		
 	</body>

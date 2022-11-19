@@ -1,0 +1,215 @@
+body {
+	background:#08547c;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+/*INÍCIO DO CABAÇALHO DA PÁGINA (header) ---- OK----*/
+header{
+	background: #1494d4;
+	padding: 10px 0;
+	width: 100%;
+
+}
+
+
+.logo_alison1{
+	display: inline-block;
+	position: relative;
+	left: 30px;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	margin: 5px 0px 0px 25px;
+
+}
+.caixa-contatos{
+	position: absolute;
+	display: inline-block;
+	margin: 70px 0px 15px 50%;
+
+}
+
+
+.contatos{
+	position: relative;
+
+
+}
+
+.contatos li{
+	display: inline-block;
+	padding: 0 auto;
+}
+
+.redesocial_logo{
+	width: 40px;
+	border: 4px #08547c solid;
+	border-radius: 20%;
+
+}
+
+.redesocial_logo:hover{
+	border-color: #C78C19;
+
+
+}
+
+.redesocial_logo:active{
+	border-color: #099C19;
+
+}
+
+.menu li{
+	display:  inline-block;
+	padding: 15px 0;
+	text-transform: uppercase;
+
+
+}
+
+.menu{
+	position: relative;
+	background: black;
+	font-size: 13px;
+	font-weight: bold;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+
+nav a{
+	text-decoration: none;
+	color: white;
+	margin: 20px;
+
+}
+
+nav a:hover{
+	text-decoration: underline;
+	font-size: 15px;
+	color: yellow;
+
+}
+/*FIM DO CABEÇALHO DA PÁGINA (header)---- OK----*/
+
+
+/*INÍCIO DO MENU DE COTAÇÕES (section)---- OK----*/
+
+.caixa-texto{
+	width: 100%;
+
+
+}
+
+
+.titulo_cotacoes{
+	color: yellow;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	margin: 20px 0 20px 0;
+	padding: 10px 0 30px 0;
+
+
+}
+
+.descricao_cotacoes{
+	font-size: 18px;
+	width: 80%;
+	margin: 20px auto 50px;
+	padding: 0 20px;
+	line-height: 23px;
+	box-sizing: border-box;
+
+}
+
+.tipos_seguros{
+	margin: 0 0 20px 0;
+}
+
+
+.tipos_seguros li{
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px 8% 10px 8%;
+	box-sizing: border-box;
+	padding: 30px 20px;
+	width:30%;
+}
+
+.tipos_seguros h3{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+
+	
+}
+
+.imagem_seguros{
+	position: relative;
+	width: 50%;
+	border-radius: 20%;
+	margin: 20px auto;
+	padding: 5px;
+	border: 5px yellow solid;
+
+}
+
+.imagem_seguros:hover{
+	border-color: #C78C19;
+}
+
+.imagem_seguros:active{
+	border-color: #099C19;
+}
+/*FIM DO MENU DE COTAÇÕES (section)---- OK----*/
+
+
+
+/*INÍCIO RODAPÉ (footer)*/
+footer{
+	text-align: center;
+	color: white;
+	background: #1494d4;
+	margin: 0 auto;
+	width: 100%;
+
+}
+
+.img_rodape{
+	padding: 30px;
+
+}
+
+.copyright{
+	padding: 10px;
+
+
+}
+/*FIM RODAPÉ (footer)*/
+
+
+
+/*INICIO MOBILE RESPONSIVE---- OK----*/
+
+@media screen and (max-width:  480px){
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FIM MOBILE RESPONSIVE---- OK----*/
