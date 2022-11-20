@@ -89,7 +89,6 @@ nav a{
 
 nav a:hover{
 	text-decoration: underline;
-	font-size: 15px;
 	color: yellow;
 
 }
@@ -123,6 +122,17 @@ nav a:hover{
 	padding: 0 20px;
 	line-height: 23px;
 	box-sizing: border-box;
+
+}
+
+.titulo_produtos{
+	color: yellow;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	margin: 20px 0 20px 0;
+	padding: 10px 0 30px 0;
+
 
 }
 
@@ -198,18 +208,85 @@ footer{
 
 @media screen and (max-width:  480px){
 
-	
+	.logo_alison1{
+		width: 200px;
+		height: 200px;
+		margin: 0 20%;
+		padding: 0 0 10px 0;
+	}
+
+	.caixa-contatos{
+		position: relative;
+		display: block;
+		margin: 10px 20%;
+
+	}
+
+	.contatos li{
+		margin: 0 5%;
+	}
+
+	.menu: active{
+		font-size: 13px;
+	}
+
+
+	}
+	.menu li{
+		margin: 0 2.5%;
+		padding: 15px 15px;
+	}
+
+	.titulo_cotacoes{
+		font-size: 22px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.tipos_seguros{
+		background: white;
+		margin: 0;
+
+
+	}
+
+
+	.tipos_seguros li{
+		display: block;
+		width:100%;
+		margin: 15px 0 0 0;
+
+
+	}
+
+	.descricao_seguros{
+		color: #08547c;
+		width: 80%;
+		font-weight: bold;
+		margin: 0 10%;
+	}
+
+	.titulo_produtos{
+		color: #08547c;
+		font-weight: bold;
+		font-size: 29px;
+
+
+	}
+
+	h3{
+		color: #08547c;
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+
+
+
+
+
 
 }
 
-
-
-
-
-
-
-
-
-
-
 /*FIM MOBILE RESPONSIVE---- OK----*/
+

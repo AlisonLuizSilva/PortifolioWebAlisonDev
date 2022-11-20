@@ -89,7 +89,6 @@ nav a{
 
 nav a:hover{
 	text-decoration: underline;
-	font-size: 15px;
 	color: yellow;
 
 }
@@ -132,7 +131,7 @@ nav a:hover{
 	position: relative;
 	display: inline-block;
 	width: 0 50%;
-	margin: 0 20%;
+	margin: 0px 15%;
 	padding: 15px;
 	box-sizing: border-box;
 
@@ -367,6 +366,10 @@ footer{
 
 	}
 
+	.apresentacao{
+		margin: 0 5%;
+	}
+
 
 	.imagem_ransom, .imagem_barbearia{
 
@@ -395,6 +398,12 @@ footer{
 		font-size: 15px;
 
 	}
+
+	.tipos_seguros{
+		background: white;
+	}
+
+
 
 	
 /*FIM MOBILE RESPONSIVE---- OK----*/
